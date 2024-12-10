@@ -23,11 +23,11 @@ CREATE TABLE Empleados
 INSERT INTO Empleados
 (Nombre, Apellido_Paterno, Apellido_Materno, Fecha_Nacimiento, Centro_Trabajo, Centro_Numero, Puesto, Descripcion_Puesto, Ciudad, Directivo)
 VALUES
-('Berenice', 'Rivera', 'Astorga', '1996-06-15', 'Diseño', 230836, 'Arquitecto', 'Responsable de dibujar planos arquitectónicos y apoyar al Líder de Proyecto', 'Culiacán', 0),
-('Fernanda', 'Román', 'Zavala', '1989-05-28', 'Diseño', 230836, 'Gerente', 'Responsable del equipo multidisciplinario', 'Culiacán', 1),
-('Fernando', 'Cervantes', 'Arellano', '1990-09-27', 'Marketing', 230837, 'Líder de Marketing', 'Responsable de la planificación de campañas publicitarias y medios', 'Culiacán', 0),
-('Hernán', 'Vel', 'Za', '1989-05-01', 'Diseño', 230850, 'Coordinador de Proyectos', 'Gestión y administración del equipo de gerentes', 'Culiacán', 1),
-('Carol', 'Santana', 'García', '1998-12-23', 'Proyectos', 230860, 'Líder de Proyecto', 'Desarrollo de proyectos arquitectónicos en conjunto con las ingenierías', 'Culiacán', 0);
+('Berenice', 'Rivera', 'Astorga', '1996-06-15', 'Diseño', 230836, 'Arquitecto', 'Responsable de dibujar planos arquitectonicos y apoyar al Lider de Proyecto', 'Culiacan', 0),
+('Fernanda', 'Roman', 'Zavala', '1989-05-28', 'Diseño', 230836, 'Gerente', 'Responsable del equipo multidisciplinario', 'Culiacan', 1),
+('Fernando', 'Cervantes', 'Arellano', '1990-09-27', 'Marketing', 230837, 'Lider de Marketing', 'Responsable de la planificacion de campañas publicitarias y medios', 'Culiacan', 0),
+('Hernan', 'Vel', 'Za', '1989-05-01', 'Diseño', 230850, 'Coordinador de Proyectos', 'Gestion y administracion del equipo de gerentes', 'Culiacan', 1),
+('Carol', 'Santana', 'Garcia', '1998-12-23', 'Proyectos', 230860, 'Lider de Proyecto', 'Desarrollo de proyectos arquitectonicos en conjunto con las ingenierias', 'Culiacan', 0);
 
 -- Verificación y muestra de la tabla
 SELECT * FROM Empleados
